@@ -327,3 +327,54 @@ a {
 .button-27:hover::placeholder {
 	color: black;
 }
+
+
+
+/* ================================= 
+			test-index
+==================================== */
+/*.image-wrapper {*/
+/*	display: grid;*/
+/*	padding: 2rem;*/
+/*	grid-template-columns: 300px 1fr;*/
+/*	gap: 1rem;*/
+/*	align-items: center;*/
+/*	max-width: 800px;*/
+/*	margin: 0 auto;*/
+/*}*/
+
+.image-wrapper a {
+	display: grid;
+	padding: 2rem;
+	grid-template-columns: 300px 1fr;
+	gap: 1rem;
+	align-items: center;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.image-wrapper a:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-img {
+	max-width: 100%;
+	height: auto;
+}
+
+.home-header {
+	color: maroon;
+}
+
+@media (max-width: 650px) {
+	.image-wrapper a {
+		display: block;
+		font-size: 80%;
+	}
+	.text-container {
+		position: relative;
+		margin: -3rem 0 2rem 1rem;
+		padding: 1rem;
+		background: rgba(white, 0.8);
+	}
+}
