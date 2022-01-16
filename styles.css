@@ -211,6 +211,75 @@ a {
 	-webkit-transform: rotate(45deg);
 }
 
+/* ================================= 
+				ABOUT
+==================================== */
+.about-image {
+	margin-right: 0%;
+	margin-left: 10%;
+	height: 600px;
+}
+
+.about-title {
+	font-size: 2em;
+	color: maroon;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif; 
+	margin-bottom: 0px;
+}
+
+.about-body {
+	font-size: 1.2em;
+	text-align: left;
+	margin: 0% 2% 1% 12%;
+	font-family: 'Quicksand', sans-serif;
+	color: #34495e;
+}
+
+.about-row {
+	margin-top: 20px;
+	display: flex;
+}
+
+.about-column {
+	width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+	.about-row {
+		display: table;
+	}
+	
+	.about-column {
+		width: 100%;
+	}
+	
+	.about-image {
+		margin-left: 22%;
+	}
+	
+
+}
+
+@media screen and (max-width: 760px) {
+	.about-row {
+		display: table;
+	}
+	
+	.about-column {
+		width: 100%;
+	}
+	
+	.about-image {
+		margin-left: 10%;
+		height: 500px;
+		
+	}
+	
+	
+}
+
+
 
 /* ================================= 
 				CONTACT
